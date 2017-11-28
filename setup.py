@@ -32,12 +32,12 @@ requirements, dependency_links = parse_requirments(
 
 
 setup(
-    name='taal',
+    name='mthpower-taal',
     packages=find_packages(exclude=['tests', 'tests.*']),
-    version='0.8.2',
-    author='onefinestay',
-    author_email='engineering@onefinestay.com',
-    url='https://github.com/onefinestay/taal',
+    version='0.9.0',
+    author='Matthew Power',
+    author_email='matthew@mthpower.uk',
+    url='https://github.com/mthpower/taal',
     install_requires=requirements,
     classifiers=[
         "Development Status :: 3 - Alpha",
