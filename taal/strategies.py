@@ -68,11 +68,7 @@ class Strategy(object):
             .filter(pk_filter)
         )
         cache = {
-            (
-                t.context.decode('utf8'),
-                t.message_id.decode('utf8'),
-                t.language.decode('utf8'),
-            ): t.value.decode('utf8')
+            (t.context, t.message_id, t.language): t.value
             for t in translations
         }
         return cache

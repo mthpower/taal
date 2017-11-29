@@ -34,7 +34,7 @@ requirements, dependency_links = parse_requirments(
 setup(
     name='mthpower-taal',
     packages=find_packages(exclude=['tests', 'tests.*']),
-    version='0.9.0',
+    version='0.9.1',
     author='Matthew Power',
     author_email='matthew@mthpower.uk',
     url='https://github.com/mthpower/taal',
